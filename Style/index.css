@@ -1,0 +1,55 @@
+body {
+    background-color: #059ec4;
+    font-family: 'Roboto';
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-color: #fff5ee;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.gambar {
+    float: left;
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 320px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.teks {
+    padding-top: 200px;
+    padding-right: 250px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
